@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<style>
+    body{
+        background: linear-gradient(to bottom left, #ff0000, #ff7f00);
+    }
+     h1{
+            background-color: rgba(246, 157, 41, 0);
+            text-align: center;
+            color: rgb(0, 0, 0);
+            font-size: 40px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: black;
+        }
+
+        nav {
+            background-color: rgba(255, 255, 255, 0);
+            font-size: 30px;
+            text-align: center;
+        }
+
+        footer{
+            background-color: rgb(246, 157, 41);
+            text-align: center;
+            color: aliceblue;
+            font-size: 40px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        form{
+            background-color: azure;
+            width: 400px;
+            text-align: center;
+            margin: 10px;
+            padding: 10px;
+            margin-left: 400px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.5);
+
+        }
+        input{
+            margin: 5px;
+            padding: 5px;
+            border: 2px solid black;
+        }
+        button{
+            background-color: grey;
+            font-size: 20px;
+            border-radius: 10px;
+            color: wheat;
+        }
+    </style>
+<body>
+    <header>
+        <h1>Formulario de Soporte</h1>
+        <nav>
+            <a href="index.html">Inicio</a>
+
+        </nav>
+
+    </header>
+    <form action="">
+        <label for="">Nombre</label>
+        <input type="text"><br>
+        <label for="">Apellido</label>
+        <input type="text"><br>
+        <label for="">DNI</label>
+        <input type="number"><br> 
+        <label for="">Password</label>
+        <input type="password" name="" id=""><br>
+        <label for="">Email</label>
+        <input type="email"><br>
+        <label for="Sexo"></label> 
+        <input type="checkbox">Masculino
+        <input type="checkbox">femenino
+        <br>
+        <label for="">fecha del incoveniente</label>
+        <input type="date" name="" id=""><br>
+        <label for="">Problemas posibles</label>
+        <select name="" id="">
+            <option value="">Error de pago</option>
+            <option value="">Retraso de Entrega</option>
+            <option value="">Mala comunicacion</option>
+            <option value="">Otro</option>
+        </select><br><br>
+        <button>Acceder</button>
+    </form>
+
+</body>
+</html>
